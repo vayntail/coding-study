@@ -8,3 +8,6 @@ function miniMaxSum(arr) {
 }
 
 miniMaxSum(arr);
+
+// sort takes a long time, so find sum of entire array then subtract min and max
+// using: Math.min(...arr) and Math.max(...arr)

@@ -11,3 +11,8 @@ function lonelyinteger(a) {
 }
 
 console.log(lonelyinteger(a));
+
+// use XOR operator (^) for better efficiency
+// function lonelyinteger(a) {
+//   return a.reduce((acc, num) => acc ^ num, 0);
+// }

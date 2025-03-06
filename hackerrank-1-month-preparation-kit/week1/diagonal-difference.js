@@ -17,3 +17,10 @@ function diagonalDifference(arr) {
 }
 
 console.log(diagonalDifference(arr));
+
+// optimal. but, for cleaner code:
+// function diagonalDifference(arr) {
+//   return Math.abs(
+//     arr.reduce((acc, row, i) => acc + row[i] - row[arr.length - i - 1], 0)
+//   );
+// }

@@ -3,7 +3,7 @@ B = [0, 2];
 k = 1;
 
 function twoArrays(k, A, B) {
-  A.sort(); // ascending
+  A.sort((a, b) => a - b); // ascending
   B.sort((a, b) => b - a); // descending
 
   for (let i = 0; i < A.length; i++) {

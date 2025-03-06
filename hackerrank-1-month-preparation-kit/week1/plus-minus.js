@@ -20,3 +20,6 @@ function plusMinus(arr) {
 }
 
 plusMinus(arr);
+
+// use for loop instead of forEach for better efficiency
+// store arr.length inside a variable rather than calling every loop
