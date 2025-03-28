@@ -22,3 +22,5 @@ function acceptreject() {
   }
 }
 console.log(acceptreject());
+// this works, but it's not efficient since it loops through a lot when rejected.
+// in chapter 9 will learn a better way
